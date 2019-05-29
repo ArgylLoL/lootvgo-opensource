@@ -1,5 +1,5 @@
 {
-    "name": "LootVGO Backend",
+    "name": "lootvgo-backend",
     "version": "1.0.0",
     "description": "Backend application for LootVGO.com",
     "main": "app.js",
