@@ -141,6 +141,8 @@ Move files from /dist to where they can be served over HTTP
 
 **Note: index.html in dist, needs to be served over HTTP for it to work properly**
 
+![](https://i.gyazo.com/2926231f2db45bea175a843a54fcdbb4.png)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
