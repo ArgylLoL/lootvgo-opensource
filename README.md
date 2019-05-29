@@ -6,24 +6,26 @@ Great news is LootVGO.com has become open sourced! Before we get started, lettin
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## Prerequisites
 
 You will need to have these software below setup, these are required to run the site.
 
 Requirements:
-```
-NPM
-NodeJS
-RethinkDB
-```
+
+![](https://i.imgur.com/5QUNxfG.jpg)
+![](https://i.imgur.com/fGdDyTc.png)
+![](https://i.imgur.com/OPsaR0f.png)
 
 Those all can be found with a quick google search how to setup.
 
-### Installing
+## Installing
 
-##### Backend Setup
+### Backend Setup
 
 I highly suggest reading these if you have not already!
+
+![https://wax.io](https://i.imgur.com/NYursLn.png)
+![https://opskins.com](https://i.imgur.com/OQukGYM.png)
 
 OPSkins API - [HERE](https://docs.opskins.com/public/en.html)\
 OPSkins Trade API - [HERE](https://github.com/OPSkins/trade-opskins-api)
@@ -33,6 +35,8 @@ First you will need to move into the backend directory and run
 ```
 npm install
 ```
+
+![](https://i.gyazo.com/b4166e72256ac776e4438266b484f4b5.png)
 
 While that's running lets update our config with some initial info. So first lets update domain object with your domains, then you can change ports if needed. After that you will need to update the rethinkDB object with your own RethinkDB credentials.
 
@@ -91,7 +95,7 @@ That will be it for the backend. I would suggest to deploy this to a server with
 
 So assuming that the backend is running its time to get the frontend up and running. This is a pretty straight forward process.
 
-##### Frontend Install
+### Frontend Install
 
 So now onto the getting the frontend working. First we need to move directories to /frontend. Then we will need to run this command.
 ```
@@ -109,7 +113,7 @@ Just in case it doesn't the URL is: http:localhost:8085
 
 ## Deployment
 
-##### Backend Deployment
+### Backend Deployment
 
 When you go to run the backend in production you will run:
 ```
@@ -118,7 +122,7 @@ npm run start-production
 
 This will run the app with NODE_ENV=production, thus using the production configs!
 
-##### Frontend Deployment
+### Frontend Deployment
 
 To deploy the frontend isn't very hard, you will need to have some know how on Apache or Nginx web servers.
 
@@ -127,13 +131,15 @@ First command you will need to run is npm run build, this will build the fronten
 npm run build
 ```
 
-Then
+**Then**
+
+![](https://i.gyazo.com/72552491525e1c9fc45f70937951dc92.png)
 
 ```
 Move files from /dist to where they can be served over HTTP
 ```
 
-Note: index.html in dist, needs to be served over HTTP for it to work properly
+**Note: index.html in dist, needs to be served over HTTP for it to work properly**
 
 ## License
 
