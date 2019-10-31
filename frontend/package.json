@@ -83,7 +83,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.7.1",
     "webpack-audio-sprite-plugin": "^0.1.0",
-    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-bundle-analyzer": "^3.6.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.19.1",
     "webpack-merge": "^4.1.0"
